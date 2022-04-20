@@ -32,9 +32,9 @@ tradeFile = pd.read_excel('trade.xlsx', sheet_name='Sheet2')
 tradeFileDf = tradeFile.iloc[0:9, 0:5] # specify trade table strategy
 tradeLength = len(tradeFileDf['Stage']) #length of trade
 
-# login credentials
-number = '0557187667'
-password = '1nnocent'
+# login credentials for the CG site
+number = ''
+password = ''
 
 
 # this function begins the trade. It enters the login credentails on the trading site, and trades based on the strategy in the excel file. See strategy
